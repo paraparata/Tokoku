@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## refs
+- [learn vuejs from freecodecamp](https://www.youtube.com/watch?v=4deVCNJq3qc)
