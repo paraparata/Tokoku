@@ -1,31 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Header />
-    <QuestionBox />
-  </div>
+  <v-app>
+    <AppBar />
+    <v-content>
+      <HelloWorld/>
+    </v-content>
+    <BottomBar />
+  </v-app>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import QuestionBox from './components/QuestionBox.vue'
+import AppBar from './components/Appbar';
+import HelloWorld from './components/HelloWorld';
+import BottomBar from './components/BottomBar';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    Header,
-    QuestionBox
-  }
-}
+    HelloWorld,
+    AppBar,
+    BottomBar
+  },
+  data: () => ({
+    //
+  }),
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
