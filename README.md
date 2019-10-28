@@ -33,4 +33,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [vue tutorial but much of them are need to bee paid](https://madewithvuejs.com/tutorials)
 - [dev.to's prerequirement doc](https://docs.dev.to/frontend/plain-js/)
 - [flutter chart gallery by google](https://google.github.io/charts/flutter/gallery.html)
-- 
